@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>$TITLE</title>
+
+    <link rel="stylesheet" href="../picocss.css" />
+    <!-- Override some CSS -->
+    <style>
+      [data-theme='dark'] {
+        --color: hsl(0, 0%, 85%);
+        --primary: #d69728;
+        --primary-hover: #ffb73b;
+        --primary-focus: rgba(124, 179, 66, 0.25);
+        --primary-inverse: #fff;
+        --background-color: rgb(15, 15, 15);
+        --card-background-color: #212121;
+        --card-sectionning-background-color: #0f0f0f;
+        --code-background-color: #0f0f0f;
+        --muted-border-color: #3d3d3d;
+        --form-element-background-color: #232323;
+        --form-element-border-color: #646464;
+        --form-element-disabled-background-color: #171717;
+        --form-element-disabled-border-color: #3b3b3b;
+        --code-color: rgb(208, 208, 208);
+      }
+
+      /* Slight override to make the text of code elements a bit nicer */
+      code {
+        font-size: 0.8em !important;
+        font-family: 'JetBrains Mono', monospace !important;
+      }
+    </style>
+
+    <!-- OG metadata -->
+    <meta property="og:title" content="$TITLE" />
+    <meta property="og:theme-color" content="#00f8b7" />
+    <meta property="og:author" content="Team Fischhunt" />
+    <meta property="og:description" content="$DESCRIPTION" />
+  </head>
+  <body>
+    <main>
+      <h1>$TITLE</h1>
+      <p>$DESCRIPTION</p>
+      <article>
+        $CONTENT
+      </article>
+      <!-- Button to get back to the table of contents -->
+      <button onclick="window.location.href='https://nolramsstuff.com/blog/'">
+        Back to articles
+      </button>
+    </main>
+  </body>
+</html>

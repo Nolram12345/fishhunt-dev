@@ -1,0 +1,3 @@
+tableOfContentsTitle=Fischhunt
+tableOfContentsDescription=Eine idiotische Jagd nach den irrelevantesten verlorenen Medien Deutschlands. Und sowas.
+footerText=© 2023 Fischhunt. Lizenziert <a href="https://creativecommons.org/licenses/by/3.0/">Unterwasser</a>.
